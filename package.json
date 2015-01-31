@@ -8,5 +8,9 @@
         "body-parser": "^1.6.4",
         "express": "^4.8.4"
     },
-    "scripts": {"start": "node app.js"}
+    "scripts": {"start": "node app.js"},
+    "engines": 
+    {
+        "node": "0.10.x"
+    }
 }
