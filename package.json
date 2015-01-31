@@ -1,0 +1,11 @@
+{
+    "name": "MySite",
+    "description": "node test app",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": 
+    {
+        "body-parser": "^1.6.4",
+        "express": "^4.8.4"
+    }
+}
