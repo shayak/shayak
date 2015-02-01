@@ -8,7 +8,7 @@ var app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
-app.use('/public', express.static(path.join(__dirname, 'public')));
+app.use('/scripts', express.static(path.join(__dirname, 'scripts')));
 app.use('/', routes);
 app.listen(process.env.PORT || 5000);
 

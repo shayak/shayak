@@ -12,4 +12,9 @@ router.get('/gmaps', function(req, res)
 	res.sendFile(path.resolve("views/gmaps.html"));
 });
 
+router.get('/restUI', function(req, res)
+{
+    res.sendFile(path.resolve("views/restUI.html"));
+});
+
 module.exports = router;
