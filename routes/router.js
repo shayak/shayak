@@ -17,4 +17,9 @@ router.get('/restUI', function(req, res)
     res.sendFile(path.resolve("views/restUI.html"));
 });
 
+router.get('/cosmo', function(req, res)
+{
+	res.sendFile(path.resolve("views/cosmo.html"));
+});
+
 module.exports = router;

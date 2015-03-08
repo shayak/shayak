@@ -4,16 +4,24 @@
   	<script src="/scripts/restUI.js"></script>
   </head>
   <body>
-  	<form name="restClient" action="">
-		<select id="methodSelect">
-				<option value="GET">GET</option>
-				<option value="POST">POST</option>
-		</select>       <input type="text" name="path" size="175" /><br><br>
-		Headers:
-		<textarea rows="10" cols="200"></textarea><br><br>
-		Body:
-		<textarea rows="30" cols="200"/></textarea><br>
-		<input type="button" value="Execute" onclick="execute()" />
-	</form>
+  	<div style="float:left;">
+		<form name="restClient" action="">
+			<select id="methodSelect">
+					<option value="GET">GET</option>
+					<option value="POST">POST</option>
+			</select>       <input type="text" name="path" size="90" /><br><br>
+			Headers:<br>
+			<textarea rows="10" cols="100"></textarea><br><br>
+			Body:<br>
+			<textarea rows="30" cols="100"/></textarea><br>
+			<input type="button" value="Execute" onclick="execute()" />
+		</form>
+	</div>
+	<div style="float:left;margin:5">
+		Response:<br>
+		<textarea rows="10" cols="100"></textarea><br><br>
+		Body:<br>
+		<textarea rows="30" cols="100"/></textarea><br>
+	</div>
   </body>
 </html>
