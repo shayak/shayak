@@ -29,7 +29,12 @@ router.get('/copypasta', function(req, res)
 
 router.get('/imgUpload', function(req, res)
 {
-	
+
+});
+
+router.get('/plasmid', function(req, res)
+{
+  res.sendFile(path.resolve("views/plasmid.html"));
 });
 
 module.exports = router;
